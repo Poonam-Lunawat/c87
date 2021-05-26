@@ -66,7 +66,7 @@ export default class CustomSideBarMenu extends Component{
   render(){
     return(
       <View style={{flex:1}}>
-      <View style={styles.avtaar}>
+      <View style={styles.avatar}>
         <Avatar
           rounded
           source={{uri : this.state.image}}
@@ -97,14 +97,14 @@ var styles = StyleSheet.create({
   container : {
     flex:1
   },
-  avtaar:{
+  avatar:{
     flex :0.5,
     alignItems: 'center',
     backgroundColor:'orange'
   },
   drawerItemsContainer:{
     flex:0.8,
-    marginTop:100
+  
   },
   logOutContainer : {
     flex:0.2,
@@ -124,7 +124,7 @@ var styles = StyleSheet.create({
   },
   imageContainer: {
     flex: 0.75,
-    width: "40%",
+    width: "20%",
     height: "20%",
     marginLeft: 20,
     marginTop: 30,
